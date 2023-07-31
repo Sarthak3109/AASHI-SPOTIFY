@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Induldge in music</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul class="brand">
+            <li ><img src="logooo.png" alt="Spotify">Spotify</li>
+            <li >Home</li>
+            <li >About</li>
+        </ul>
+    </nav>
+    <div class="container">
+       
+        <div class="songlist">
+            <h1>International Hits</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img src="cover1.jpg" alt="1">
+                    <span class="songName">Until I Found You</span>
+                    <span class="songlistplay"><span class="timestamp">02:56 <i id="0" class="fa-regular songItemPlay fa-circle-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="cover2.jfif" alt="1">
+                    <span class="songName">Calm Down</span>
+                    <span class="songlistplay"><span class="timestamp">03:59 <i id="1" class="fa-regular songItemPlay fa-circle-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="cover3.jfif" alt="1">
+                    <span class="songName">Stereo Hearts</span>
+                    <span class="songlistplay"><span class="timestamp">03:36 <i id="2" class="fa-regular songItemPlay fa-circle-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="cover4.jfif" alt="1">
+                    <span class="songName">Do it to it</span>
+                    <span class="songlistplay"><span class="timestamp">02:40 <i id="3" class="fa-regular songItemPlay fa-circle-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="cover5.jfif" alt="1">
+                    <span class="songName">Levatating</span>
+                    <span class="songlistplay"><span class="timestamp">03:50 <i id="4" class="fa-regular songItemPlay fa-circle-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="cover6.jfif" alt="1">
+                    <span class="songName">Money</span>
+                    <span class="songlistplay"><span class="timestamp">02:50 <i id="5" class="fa-regular songItemPlay fa-circle-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="cover7.jfif" alt="1">
+                    <span class="songName">Barbie World</span>
+                    <span class="songlistplay"><span class="timestamp">03:21 <i id="6" class="fa-regular songItemPlay fa-circle-play"></i></span>
+                </div>
+            </div>
+            
+        </div>
+        <div class="Banner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myRange" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fa-solid fa-2x fa-backward" id="lastPlay"></i>
+            <i class="fa-solid fa-2x fa-circle-play" id="masterPlay"></i>
+            <i class="fa-solid fa-2x fa-forward" id="nextPlay"></i>
+            
+        </div>
+        <div class="songInfo">
+            <img src="sound-wave-waves.gif" width="50px" alt="" id="gif"> <span id="masterSongName">Love You~Justin Bieber</span> 
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/e887ed5fcd.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
